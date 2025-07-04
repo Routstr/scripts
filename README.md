@@ -40,7 +40,7 @@ This script powers the Routstr Nostr bot. It interacts with the Nostr network to
     This script requires sensitive information to be stored as environment variables. Create a file named `.env` in the same directory as `routstr_bot.py` with the following content:
 
     ```
-    ROUTSTR_API_URL="YOUR_ROUTSTR_API_BASE_URL" # e.g., https://api.routstr.io
+    ROUTSTR_API_URL="YOUR_ROUTSTR_API_BASE_URL" # e.g., https://api.routstr.com
     NOSTR_BOT_NSEC="YOUR_NOSTR_BOT_NSEC_PRIVATE_KEY" # Your bot's Nostr private key (nsec format)
     ROUTSTR_API_KEY="YOUR_ROUTSTR_API_KEY" # Your API key for Routstr
     ```
